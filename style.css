@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: Grandstander;
+  }
+body {
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.Heading {
+    font-size: 25px;
+}
+.Heading > h3 {
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+    font-size: 20px;
+}
+
+.Game {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    padding: 0;
+}
+
+.Game > div h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+.Game button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 45%; */
+    font-size: larger;
+    border: none;
+    background-color: transparent;
+}
+.Game > div img {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 300px;
+    margin-top: -210px;
+}
+
+
+.row1 > button, .row2 > button, .row3 > button {
+    display: inline-block;
+    border: red solid 1px;
+    border-radius: 30px;
+    background-color: #ecd234;
+    color: #eb4034;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+
+}
+.row1, .row2, .row3 {
+    height: 40px;
+}
+div > h2 {
+    /* margin-bottom: 300px; */
+    font-size: xx-large;
+}
+.text-line {
+    display:  none;
+    font-size: xx-large;
+}
+.keypad {
+    display: none;
+    margin-top: 10%;
+}
+
+.play-button {
+    /* margin: 0 auto; */
+    /* top: 25%; */
+    position: relative;
+    /* width: 0;
+    height: 0; */
+    border-style: solid;
+    border-width: 2.5em 0 2.5em 5em;
+    border-color: transparent transparent transparent #000;
+    opacity: .75;
+    margin-left: 32px;
+    margin-bottom: 30px;
+  }
+
+  #Start {
+    margin-top: 15%;
+    
+  }
