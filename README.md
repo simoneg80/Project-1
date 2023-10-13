@@ -35,10 +35,10 @@ https://simoneg80.github.io/Project-1/
 ## Next Steps
 There are a number of updates i'd like to include:
 * A gif or video looping in the background to add movement to the page
-    Images of other characters when corresponding words are guessed 
-    Additional rounds of the game with categories to choose from
-    Display hints assoicated with each word
-    Functionality to reset the game 
+* Images of other characters when corresponding words are guessed 
+* Additional rounds of the game with categories to choose from
+* Display hints assoicated with each word
+* Functionality to reset the game 
 
 ## The MIT License (MIT)
 Copyright (c) 2023 Simone Green
