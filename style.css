@@ -3,14 +3,16 @@
     font-family: Grandstander;
   }
 body {
+    background-image: url(/the-merry.png);
+    background-position: cover;
     text-align: center;
     margin-top: 50px;   
 }
 
-.Heading {
+.Title {
     font-size: 25px;
 }
-.Heading > h3 {
+.Title > h3 {
     position: relative;
     bottom: 35px;
     left: 80px;
@@ -18,12 +20,9 @@ body {
 }
 
 .Game {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
     border: 2px solid black;
@@ -48,7 +47,8 @@ body {
     border: none;
     background-color: transparent;
 }
-.Game > div img {
+
+.home-luffy > img {
     position: absolute;
     margin-top: 0;
     margin-bottom: 0;
@@ -72,12 +72,12 @@ body {
     height: 40px;
 }
 div > h2 {
-    /* margin-bottom: 300px; */
-    font-size: xx-large;
+    font-size: x-large;
 }
 .text-line {
     display:  none;
     font-size: xx-large;
+    margin-top: 5%;
 }
 .keypad {
     display: none;
@@ -85,11 +85,7 @@ div > h2 {
 }
 
 .play-button {
-    /* margin: 0 auto; */
-    /* top: 25%; */
     position: relative;
-    /* width: 0;
-    height: 0; */
     border-style: solid;
     border-width: 2.5em 0 2.5em 5em;
     border-color: transparent transparent transparent #000;
@@ -99,6 +95,17 @@ div > h2 {
   }
 
   #Start {
-    margin-top: 15%;
+    margin-top: 15%; 
+  }
+
+  .Angry-Luffy-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+  .Angry-Luffy-Container > img {
+    width: 10%;
     
   }
