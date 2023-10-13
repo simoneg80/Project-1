@@ -7,7 +7,7 @@ Try this classic game of Hangman with a Twist! Inspired by One Piece, Rubber Man
 The main goal of the game is to guess the correct word. If the word is guessed before the player runs out of tries, they win! Otherwise, they will see images of 'Angry Luffy' with each incorrect guess. It is simple and fun!
 
 ## Game Images 
-
+src="https://github.com/simoneg80/Project-1/assets/145403760/4901b9ae-47d3-4425-88da-f0306bc25b14">
 
 ## Technologies
     HTML    
