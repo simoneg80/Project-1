@@ -3,7 +3,7 @@
     font-family: Grandstander;
   }
 body {
-    background-image: url(/the-merry.png);
+    background-image: url(the-merry.png);
     background-position: cover;
     text-align: center;
     margin-top: 50px;   
