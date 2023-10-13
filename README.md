@@ -30,8 +30,7 @@ The main goal of the game is to guess the correct word. If the word is guessed b
 <img width="558" alt="Screenshot 2023-10-13 at 12 39 43 AM" src="https://github.com/simoneg80/Project-1/assets/145403760/abfde515-0234-498d-b9d9-71607a26a67f">
 
 ## Game Link
-
-
+https://simoneg80.github.io/Project-1/
 
 ## Next Steps
 There are a number of updates i'd like to include:
